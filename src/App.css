@@ -1,0 +1,70 @@
+
+
+.cont-pokemon{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+  min-width: 320px;
+  min-height: 100vh;
+  flex-grow: initial;
+  flex-wrap: wrap;
+
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+
+body{
+    background-image: url("https://pa1.narvii.com/6623/998f123fb98333e88c20db796f4a8f1b051558c2_hq.gif");
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0,0,0.8);
+ 
+  gap: 10px;
+  text-align: center;
+  height:450px;
+  border: solid 5px;
+  width: 300px;
+  border-radius: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+  color:white;
+}
+h1{
+  font-size: xx-large;
+  margin-top: 30px;
+}
+
+img{
+  border-radius: 50%;
+  align-self: center;
+  background-color :white;
+  height: 200px;
+  width: 200px;
+  border: solid 4px;
+  
+}
+ul{
+  margin-top: 0%;
+  text-decoration: none;
+  list-style: none;
+  font-weight:900;
+  font-size: x-large;
+}
+
+button{
+  margin-top: 0%;
+  height: 40px;
+  width: 150px;
+  border: solid 5px black;
+  border-radius:30px;
+}
